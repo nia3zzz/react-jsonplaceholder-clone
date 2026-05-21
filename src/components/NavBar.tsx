@@ -1,7 +1,7 @@
 import "../styles/components/NavBar.css";
 import { NavLink } from "react-router";
 import { useState } from "react";
-import logo from "src/assets/logo.png";
+import logo from "../assets/logo.png";
 
 function NavBar() {
   const [isHamburgerMenuOpen, setIsHamburgerMenuOpen] = useState(false);

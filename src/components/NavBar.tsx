@@ -1,6 +1,7 @@
 import "../styles/components/NavBar.css";
 import { NavLink } from "react-router";
 import { useState } from "react";
+import logo from "src/assets/logo.png";
 
 function NavBar() {
   const [isHamburgerMenuOpen, setIsHamburgerMenuOpen] = useState(false);
@@ -25,7 +26,7 @@ function NavBar() {
       </header>
       <nav className="navbar-navbar">
         <NavLink className="logo" to="/">
-          <img src="src/assets/logo.png" alt="Logo" srcSet="" />
+          <img src={logo} alt="Logo" srcSet="" />
           <h1 id="logo-brand-text">JSONPlaceholder-Clone</h1>
         </NavLink>
 

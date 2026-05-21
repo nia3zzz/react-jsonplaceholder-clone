@@ -1,5 +1,6 @@
 import { NavLink } from "react-router";
 import "../styles/components/Footer.css";
+import logo from "src/assets/logo.png";
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
       <div className="footer-containers">
         <div className="footer-left-container">
           <NavLink className="footer-logo" to="/">
-            <img src="src/assets/logo.png" alt="Logo" srcSet="" />
+            <img src={logo} alt="Logo" srcSet="" />
             <h1 className="footer-logo-brand-text">JSONPlaceholder-Clone</h1>
           </NavLink>
         </div>

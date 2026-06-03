@@ -1,5 +1,5 @@
 import "../styles/pages/AboutUs.css";
-import {logo} "./src/assets/srothitlogo.png"
+import srothitlogo from "../assets/srothitlogo.png";
 
 function AboutPage() {
   return (
@@ -34,7 +34,7 @@ function AboutPage() {
             <div className="about__img-frame">
               <div className="about__img-placeholder">
                 <img
-                  src={logo}
+                  src={srothitlogo}
                   alt="Sroth IT Logo"
                   className="about__img"
                 />
